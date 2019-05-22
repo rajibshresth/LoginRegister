@@ -2,15 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="match_parent" android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".DashboardActivity"
-    android:orientation="vertical">
+    tools:context=".AdminDashboardActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Dashboard"
+        android:hint="Admin Dashboard"
         android:gravity="center"
         android:textSize="30sp"
         android:background="@color/design_default_color_primary"
@@ -33,5 +32,22 @@
         android:layout_gravity="center"
         android:textSize="30sp"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:hint="Add User"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:hint="Search User"
+        android:textSize="30sp" />
 
 </LinearLayout>
