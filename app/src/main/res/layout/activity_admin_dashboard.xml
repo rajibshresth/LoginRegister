@@ -18,36 +18,36 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
+        android:layout_margin="10dp"
         android:hint="Make an Appointment"
         android:layout_gravity="center"
-        android:textSize="30sp"
+        android:textSize="20sp"
         />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
+        android:layout_margin="10dp"
         android:hint="View Appointment"
         android:layout_gravity="center"
-        android:textSize="30sp"
+        android:textSize="20sp"
         />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
+        android:layout_margin="10dp"
         android:hint="Add User"
         android:layout_gravity="center"
-        android:textSize="30sp"
+        android:textSize="20sp"
         />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="30dp"
+        android:layout_margin="10dp"
         android:hint="Search User"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
 </LinearLayout>

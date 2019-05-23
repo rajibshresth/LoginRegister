@@ -13,6 +13,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.e.loginregister.AdminDashboardActivity;
+import com.e.loginregister.DashboardActivity;
 import com.e.loginregister.MainActivity;
 import com.e.loginregister.R;
 
@@ -59,9 +61,14 @@ public class LoginActivity extends Fragment {
         if (username.equals(user.getText().toString()) && password.equals(pswd.getText().toString())){
             Toast.makeText(this.getActivity(), "Successfully logged in", Toast.LENGTH_SHORT).show();
 
-            Intent intent=new Intent(this.getActivity(), MainActivity.class);
-            startActivity(intent);
-
+            if (username.equals("admin") && password.equals("admin")){
+                Intent intent=new Intent(this.getActivity(), AdminDashboardActivity.class);
+                startActivity(intent);
+            }
+            else{
+                Intent intent=new Intent(this.getActivity(), DashboardActivity.class);
+                startActivity(intent);
+            }
         }
         else
         {
